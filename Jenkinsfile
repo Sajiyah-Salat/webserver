@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script {
                     // Checkout the code from the private GitHub repository using credentials
-                    git credentialsId: 'github-creds', url: 'https://github.com/your-repo/your-project.git'
+                    git credentialsId: 'github-creds', url: 'https://github.com/Sajiyah-Salat/webserver.git'
                 }
             }
         }
